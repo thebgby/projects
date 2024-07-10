@@ -1,305 +1,316 @@
 {
+    "posts": [
+      { "id": 1, "title": "Post 1" },
+      { "id": 2, "title": "Post 2" },
+      { "id": 3, "title": "Post 3" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 },
+      { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
     "users": [
-        {
-            "id": 1,
-            "first_name": "John",
-            "last_name": "Doe",
-            "email": "john.doe@example.com",
-            "phone": "123-456-7890",
-            "country": "USA",
-            "age": 25,
-            "extension": "csv"
-        },
-        {
-            "id": 2,
-            "first_name": "Jane",
-            "last_name": "Smith",
-            "email": "jane.smith@example.com",
-            "phone": "987-654-3210",
-            "country": "Canada",
-            "age": 30,
-            "extension": "sql"
-        },
-        {
-            "id": 3,
-            "first_name": "Michael",
-            "last_name": "Johnson",
-            "email": "michael.johnson@example.com",
-            "phone": "456-789-0123",
-            "country": "UK",
-            "age": 28,
-            "extension": "txt"
-        },
-        {
-            "id": 4,
-            "first_name": "Emily",
-            "last_name": "Williams",
-            "email": "emily.williams@example.com",
-            "phone": "321-654-9870",
-            "country": "Australia",
-            "age": 32,
-            "extension": "csv"
-        },
-        {
-            "id": 5,
-            "first_name": "David",
-            "last_name": "Brown",
-            "email": "david.brown@example.com",
-            "phone": "654-321-0987",
-            "country": "Germany",
-            "age": 27,
-            "extension": "sql"
-        },
-        {
-            "id": 6,
-            "first_name": "Sarah",
-            "last_name": "Davis",
-            "email": "sarah.davis@example.com",
-            "phone": "789-012-3456",
-            "country": "France",
-            "age": 29,
-            "extension": "txt"
-        },
-        {
-            "id": 7,
-            "first_name": "Chris",
-            "last_name": "Miller",
-            "email": "chris.miller@example.com",
-            "phone": "012-345-6789",
-            "country": "Italy",
-            "age": 31,
-            "extension": "csv"
-        },
-        {
-            "id": 8,
-            "first_name": "Jessica",
-            "last_name": "Martinez",
-            "email": "jessica.martinez@example.com",
-            "phone": "345-678-9012",
-            "country": "Spain",
-            "age": 26,
-            "extension": "sql"
-        },
-        {
-            "id": 9,
-            "first_name": "Daniel",
-            "last_name": "Garcia",
-            "email": "daniel.garcia@example.com",
-            "phone": "678-901-2345",
-            "country": "Mexico",
-            "age": 33,
-            "extension": "txt"
-        },
-        {
-            "id": 10,
-            "first_name": "Laura",
-            "last_name": "Martinez",
-            "email": "laura.martinez@example.com",
-            "phone": "901-234-5678",
-            "country": "Brazil",
-            "age": 28,
-            "extension": "csv"
-        },
-        {
-            "id": 11,
-            "first_name": "James",
-            "last_name": "Taylor",
-            "email": "james.taylor@example.com",
-            "phone": "234-567-8901",
-            "country": "Russia",
-            "age": 34,
-            "extension": "sql"
-        },
-        {
-            "id": 12,
-            "first_name": "Megan",
-            "last_name": "Anderson",
-            "email": "megan.anderson@example.com",
-            "phone": "567-890-1234",
-            "country": "Japan",
-            "age": 26,
-            "extension": "txt"
-        },
-        {
-            "id": 13,
-            "first_name": "Anthony",
-            "last_name": "Thomas",
-            "email": "anthony.thomas@example.com",
-            "phone": "890-123-4567",
-            "country": "China",
-            "age": 32,
-            "extension": "csv"
-        },
-        {
-            "id": 14,
-            "first_name": "Lisa",
-            "last_name": "Jackson",
-            "email": "lisa.jackson@example.com",
-            "phone": "123-456-7890",
-            "country": "India",
-            "age": 29,
-            "extension": "sql"
-        },
-        {
-            "id": 15,
-            "first_name": "Matthew",
-            "last_name": "White",
-            "email": "matthew.white@example.com",
-            "phone": "456-789-0123",
-            "country": "South Korea",
-            "age": 27,
-            "extension": "txt"
-        },
-        {
-            "id": 16,
-            "first_name": "Olivia",
-            "last_name": "Harris",
-            "email": "olivia.harris@example.com",
-            "phone": "789-012-3456",
-            "country": "Netherlands",
-            "age": 31,
-            "extension": "csv"
-        },
-        {
-            "id": 17,
-            "first_name": "Alexander",
-            "last_name": "Martin",
-            "email": "alexander.martin@example.com",
-            "phone": "012-345-6789",
-            "country": "Sweden",
-            "age": 28,
-            "extension": "sql"
-        },
-        {
-            "id": 18,
-            "first_name": "Sophia",
-            "last_name": "Clark",
-            "email": "sophia.clark@example.com",
-            "phone": "345-678-9012",
-            "country": "Norway",
-            "age": 30,
-            "extension": "txt"
-        },
-        {
-            "id": 19,
-            "first_name": "Andrew",
-            "last_name": "Lewis",
-            "email": "andrew.lewis@example.com",
-            "phone": "678-901-2345",
-            "country": "Denmark",
-            "age": 25,
-            "extension": "csv"
-        },
-        {
-            "id": 20,
-            "first_name": "Emma",
-            "last_name": "Robinson",
-            "email": "emma.robinson@example.com",
-            "phone": "901-234-5678",
-            "country": "Finland",
-            "age": 33,
-            "extension": "sql"
-        },
-        {
-            "id": 21,
-            "first_name": "Joshua",
-            "last_name": "Walker",
-            "email": "joshua.walker@example.com",
-            "phone": "234-567-8901",
-            "country": "Switzerland",
-            "age": 27,
-            "extension": "txt"
-        },
-        {
-            "id": 22,
-            "first_name": "Hannah",
-            "last_name": "Young",
-            "email": "hannah.young@example.com",
-            "phone": "567-890-1234",
-            "country": "Austria",
-            "age": 31,
-            "extension": "csv"
-        },
-        {
-            "id": 23,
-            "first_name": "Joseph",
-            "last_name": "King",
-            "email": "joseph.king@example.com",
-            "phone": "890-123-4567",
-            "country": "Belgium",
-            "age": 30,
-            "extension": "sql"
-        },
-        {
-            "id": 24,
-            "first_name": "Isabella",
-            "last_name": "Allen",
-            "email": "isabella.allen@example.com",
-            "phone": "123-456-7890",
-            "country": "Portugal",
-            "age": 26,
-            "extension": "txt"
-        },
-        {
-            "id": 25,
-            "first_name": "Ryan",
-            "last_name": "Scott",
-            "email": "ryan.scott@example.com",
-            "phone": "456-789-0123",
-            "country": "Ireland",
-            "age": 28,
-            "extension": "csv"
-        },
-        {
-            "id": 26,
-            "first_name": "Ava",
-            "last_name": "Hill",
-            "email": "ava.hill@example.com",
-            "phone": "789-012-3456",
-            "country": "New Zealand",
-            "age": 29,
-            "extension": "sql"
-        },
-        {
-            "id": 27,
-            "first_name": "Jacob",
-            "last_name": "Green",
-            "email": "jacob.green@example.com",
-            "phone": "012-345-6789",
-            "country": "South Africa",
-            "age": 32,
-            "extension": "txt"
-        },
-        {
-            "id": 28,
-            "first_name": "Charlotte",
-            "last_name": "Adams",
-            "email": "charlotte.adams@example.com",
-            "phone": "345-678-9012",
-            "country": "Argentina",
-            "age": 27,
-            "extension": "csv"
-        },
-        {
-            "id": 29,
-            "first_name": "Ethan",
-            "last_name": "Baker",
-            "email": "ethan.baker@example.com",
-            "phone": "678-901-2345",
-            "country": "Chile",
-            "age": 34,
-            "extension": "sql"
-        },
-        {
-            "id": 30,
-            "first_name": "Amelia",
-            "last_name": "Gonzalez",
-            "email": "amelia.gonzalez@example.com",
-            "phone": "901-234-5678",
-            "country": "Peru",
-            "age": 25,
-            "extension": "txt"
-        }
-    ]
-    
-}
+          {
+              "id": 1,
+              "first_name": "John",
+              "last_name": "Doe",
+              "email": "john.doe@example.com",
+              "phone": "123-456-7890",
+              "country": "USA",
+              "age": 25,
+              "extension": "csv"
+          },
+          {
+              "id": 2,
+              "first_name": "Jane",
+              "last_name": "Smith",
+              "email": "jane.smith@example.com",
+              "phone": "987-654-3210",
+              "country": "Canada",
+              "age": 30,
+              "extension": "sql"
+          },
+          {
+              "id": 3,
+              "first_name": "Michael",
+              "last_name": "Johnson",
+              "email": "michael.johnson@example.com",
+              "phone": "456-789-0123",
+              "country": "UK",
+              "age": 28,
+              "extension": "txt"
+          },
+          {
+              "id": 4,
+              "first_name": "Emily",
+              "last_name": "Williams",
+              "email": "emily.williams@example.com",
+              "phone": "321-654-9870",
+              "country": "Australia",
+              "age": 32,
+              "extension": "csv"
+          },
+          {
+              "id": 5,
+              "first_name": "David",
+              "last_name": "Brown",
+              "email": "david.brown@example.com",
+              "phone": "654-321-0987",
+              "country": "Germany",
+              "age": 27,
+              "extension": "sql"
+          },
+          {
+              "id": 6,
+              "first_name": "Sarah",
+              "last_name": "Davis",
+              "email": "sarah.davis@example.com",
+              "phone": "789-012-3456",
+              "country": "France",
+              "age": 29,
+              "extension": "txt"
+          },
+          {
+              "id": 7,
+              "first_name": "Chris",
+              "last_name": "Miller",
+              "email": "chris.miller@example.com",
+              "phone": "012-345-6789",
+              "country": "Italy",
+              "age": 31,
+              "extension": "csv"
+          },
+          {
+              "id": 8,
+              "first_name": "Jessica",
+              "last_name": "Martinez",
+              "email": "jessica.martinez@example.com",
+              "phone": "345-678-9012",
+              "country": "Spain",
+              "age": 26,
+              "extension": "sql"
+          },
+          {
+              "id": 9,
+              "first_name": "Daniel",
+              "last_name": "Garcia",
+              "email": "daniel.garcia@example.com",
+              "phone": "678-901-2345",
+              "country": "Mexico",
+              "age": 33,
+              "extension": "txt"
+          },
+          {
+              "id": 10,
+              "first_name": "Laura",
+              "last_name": "Martinez",
+              "email": "laura.martinez@example.com",
+              "phone": "901-234-5678",
+              "country": "Brazil",
+              "age": 28,
+              "extension": "csv"
+          },
+          {
+              "id": 11,
+              "first_name": "James",
+              "last_name": "Taylor",
+              "email": "james.taylor@example.com",
+              "phone": "234-567-8901",
+              "country": "Russia",
+              "age": 34,
+              "extension": "sql"
+          },
+          {
+              "id": 12,
+              "first_name": "Megan",
+              "last_name": "Anderson",
+              "email": "megan.anderson@example.com",
+              "phone": "567-890-1234",
+              "country": "Japan",
+              "age": 26,
+              "extension": "txt"
+          },
+          {
+              "id": 13,
+              "first_name": "Anthony",
+              "last_name": "Thomas",
+              "email": "anthony.thomas@example.com",
+              "phone": "890-123-4567",
+              "country": "China",
+              "age": 32,
+              "extension": "csv"
+          },
+          {
+              "id": 14,
+              "first_name": "Lisa",
+              "last_name": "Jackson",
+              "email": "lisa.jackson@example.com",
+              "phone": "123-456-7890",
+              "country": "India",
+              "age": 29,
+              "extension": "sql"
+          },
+          {
+              "id": 15,
+              "first_name": "Matthew",
+              "last_name": "White",
+              "email": "matthew.white@example.com",
+              "phone": "456-789-0123",
+              "country": "South Korea",
+              "age": 27,
+              "extension": "txt"
+          },
+          {
+              "id": 16,
+              "first_name": "Olivia",
+              "last_name": "Harris",
+              "email": "olivia.harris@example.com",
+              "phone": "789-012-3456",
+              "country": "Netherlands",
+              "age": 31,
+              "extension": "csv"
+          },
+          {
+              "id": 17,
+              "first_name": "Alexander",
+              "last_name": "Martin",
+              "email": "alexander.martin@example.com",
+              "phone": "012-345-6789",
+              "country": "Sweden",
+              "age": 28,
+              "extension": "sql"
+          },
+          {
+              "id": 18,
+              "first_name": "Sophia",
+              "last_name": "Clark",
+              "email": "sophia.clark@example.com",
+              "phone": "345-678-9012",
+              "country": "Norway",
+              "age": 30,
+              "extension": "txt"
+          },
+          {
+              "id": 19,
+              "first_name": "Andrew",
+              "last_name": "Lewis",
+              "email": "andrew.lewis@example.com",
+              "phone": "678-901-2345",
+              "country": "Denmark",
+              "age": 25,
+              "extension": "csv"
+          },
+          {
+              "id": 20,
+              "first_name": "Emma",
+              "last_name": "Robinson",
+              "email": "emma.robinson@example.com",
+              "phone": "901-234-5678",
+              "country": "Finland",
+              "age": 33,
+              "extension": "sql"
+          },
+          {
+              "id": 21,
+              "first_name": "Joshua",
+              "last_name": "Walker",
+              "email": "joshua.walker@example.com",
+              "phone": "234-567-8901",
+              "country": "Switzerland",
+              "age": 27,
+              "extension": "txt"
+          },
+          {
+              "id": 22,
+              "first_name": "Hannah",
+              "last_name": "Young",
+              "email": "hannah.young@example.com",
+              "phone": "567-890-1234",
+              "country": "Austria",
+              "age": 31,
+              "extension": "csv"
+          },
+          {
+              "id": 23,
+              "first_name": "Joseph",
+              "last_name": "King",
+              "email": "joseph.king@example.com",
+              "phone": "890-123-4567",
+              "country": "Belgium",
+              "age": 30,
+              "extension": "sql"
+          },
+          {
+              "id": 24,
+              "first_name": "Isabella",
+              "last_name": "Allen",
+              "email": "isabella.allen@example.com",
+              "phone": "123-456-7890",
+              "country": "Portugal",
+              "age": 26,
+              "extension": "txt"
+          },
+          {
+              "id": 25,
+              "first_name": "Ryan",
+              "last_name": "Scott",
+              "email": "ryan.scott@example.com",
+              "phone": "456-789-0123",
+              "country": "Ireland",
+              "age": 28,
+              "extension": "csv"
+          },
+          {
+              "id": 26,
+              "first_name": "Ava",
+              "last_name": "Hill",
+              "email": "ava.hill@example.com",
+              "phone": "789-012-3456",
+              "country": "New Zealand",
+              "age": 29,
+              "extension": "sql"
+          },
+          {
+              "id": 27,
+              "first_name": "Jacob",
+              "last_name": "Green",
+              "email": "jacob.green@example.com",
+              "phone": "012-345-6789",
+              "country": "South Africa",
+              "age": 32,
+              "extension": "txt"
+          },
+          {
+              "id": 28,
+              "first_name": "Charlotte",
+              "last_name": "Adams",
+              "email": "charlotte.adams@example.com",
+              "phone": "345-678-9012",
+              "country": "Argentina",
+              "age": 27,
+              "extension": "csv"
+          },
+          {
+              "id": 29,
+              "first_name": "Ethan",
+              "last_name": "Baker",
+              "email": "ethan.baker@example.com",
+              "phone": "678-901-2345",
+              "country": "Chile",
+              "age": 34,
+              "extension": "sql"
+          },
+          {
+              "id": 30,
+              "first_name": "Amelia",
+              "last_name": "Gonzalez",
+              "email": "amelia.gonzalez@example.com",
+              "phone": "901-234-5678",
+              "country": "Peru",
+              "age": 25,
+              "extension": "txt"
+          }
+      ]
+  }
